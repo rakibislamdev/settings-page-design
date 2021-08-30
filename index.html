@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <title>Form</title>
+</head>
+
+<body class="p-3 mb-2 bg-light bg-secondary">
+    <!-- As a heading -->
+    <nav class="navbar navbar-dark bg-success">
+        <div class="container-fluid">
+            <h3>
+                How To Use:
+                <code class="badge rounded-pill bg-primary text-white h6">setting('site.setting')</code>
+            </h3>
+        </div>
+    </nav> <br>
+
+    <div class="p-3 mb-2 bg-light bg-white">
+        <div class="button">
+            <button class="btn" type="button">site</button>
+            <button class="btn bg-secondary" type="button">admin</button>
+        </div> <br>
+
+        <form action="">
+            <div class="pannel">
+                <div class="top-pannel d-flex justify-content-between">
+                    <div class="pannel-title">
+                        <h3>
+                            Site Title
+                            <code class="badge rounded-pill bg-primary text-white h6">setting('site.title')</code>
+                        </h3>
+                    </div>
+                    <div class="pannel-action">
+                        <a href="#">
+                            <svg width="20px" enable-background="new 0 0 32 32" id="Слой_1" version="1.1"
+                                viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path clip-rule="evenodd"
+                                    d="M26.711,20.273l-9.999-9.977  c-0.395-0.394-1.034-0.394-1.429,0v0h0l-9.991,9.97c-0.66,0.634-0.162,1.748,0.734,1.723h19.943  C26.862,22.012,27.346,20.906,26.711,20.273z M15.998,12.433l7.566,7.55H8.432L15.998,12.433z"
+                                    fill="#121313" fill-rule="evenodd" id="Arrow_Drop_Up" />
+                                <g />
+                                <g />
+                                <g />
+                                <g />
+                                <g />
+                                <g />
+                            </svg>
+                        </a>
+
+                        <a href="#">
+                            <svg width="20px" enable-background="new 0 0 32 32" id="Слой_1" version="1.1"
+                                viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path clip-rule="evenodd"
+                                    d="M27,11.106c0-0.564-0.489-1.01-1.044-0.995  H6.013c-0.887-0.024-1.38,1.07-0.742,1.702l9.999,9.9c0.394,0.39,1.031,0.376,1.429,0l9.991-9.892C26.879,11.64,27,11.388,27,11.106  z M15.984,19.591L8.418,12.1H23.55L15.984,19.591z"
+                                    fill="#121313" fill-rule="evenodd" id="Arrow_Drop_Down" />
+                                <g />
+                                <g />
+                                <g />
+                                <g />
+                                <g />
+                                <g />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-trash-2">
+                                <polyline points="3 6 5 6 21 6"></polyline>
+                                <path
+                                    d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                </path>
+                                <line x1="10" y1="11" x2="10" y2="17"></line>
+                                <line x1="14" y1="11" x2="14" y2="17"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="pannel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" name="" id="" placeholder="site title">
+                        </div>
+                        <div class="col-md-4">
+                            <select name="" class="form-control rakib" id="">
+                                <option value="">site</option>
+                                <option value="">admin</option>
+                                <option value="">visitor</option>
+                                <option value="">subscriber</option>
+                                <option value="">traffic</option>
+                            </select>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <br><hr>
+            <div class="pannel">
+              <div class="top-pannel d-flex justify-content-between">
+                  <div class="pannel-title">
+                      <h3>
+                          Site Description
+                          <code class="badge rounded-pill bg-primary text-white h6">setting('site.description')</code>
+                      </h3>
+                  </div>
+                  <div class="pannel-action">
+                      <a href="#">
+                          <svg width="20px" enable-background="new 0 0 32 32" id="Слой_1" version="1.1"
+                              viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <path clip-rule="evenodd"
+                                  d="M26.711,20.273l-9.999-9.977  c-0.395-0.394-1.034-0.394-1.429,0v0h0l-9.991,9.97c-0.66,0.634-0.162,1.748,0.734,1.723h19.943  C26.862,22.012,27.346,20.906,26.711,20.273z M15.998,12.433l7.566,7.55H8.432L15.998,12.433z"
+                                  fill="#121313" fill-rule="evenodd" id="Arrow_Drop_Up" />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                          </svg>
+                      </a>
+
+                      <a href="#">
+                          <svg width="20px" enable-background="new 0 0 32 32" id="Слой_1" version="1.1"
+                              viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <path clip-rule="evenodd"
+                                  d="M27,11.106c0-0.564-0.489-1.01-1.044-0.995  H6.013c-0.887-0.024-1.38,1.07-0.742,1.702l9.999,9.9c0.394,0.39,1.031,0.376,1.429,0l9.991-9.892C26.879,11.64,27,11.388,27,11.106  z M15.984,19.591L8.418,12.1H23.55L15.984,19.591z"
+                                  fill="#121313" fill-rule="evenodd" id="Arrow_Drop_Down" />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                          </svg>
+                      </a>
+                      <a href="#">
+                          <svg width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                              class="feather feather-trash-2">
+                              <polyline points="3 6 5 6 21 6"></polyline>
+                              <path
+                                  d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                              </path>
+                              <line x1="10" y1="11" x2="10" y2="17"></line>
+                              <line x1="14" y1="11" x2="14" y2="17"></line>
+                          </svg>
+                      </a>
+                  </div>
+              </div>
+              <div class="pannel-body">
+                  <div class="row">
+                      <div class="col-md-8">
+                          <input type="text" class="form-control" name="" id="">
+                      </div>
+                      <div class="col-md-4">
+                          <select name="" class="form-control rakib" id="">
+                              <option value="">site</option>
+                              <option value="">admin</option>
+                              <option value="">visitor</option>
+                              <option value="">subscriber</option>
+                              <option value="">traffic</option>
+                          </select>
+
+                      </div>
+
+                  </div>
+              </div>
+            </div>
+            <br><hr>
+            <div class="pannel">
+            <div class="top-pannel d-flex justify-content-between">
+                <div class="pannel-title">
+                    <h3>
+                        Site Logo
+                        <code class="badge rounded-pill bg-primary text-white h6">setting('site.logo')</code>
+                    </h3>
+                </div>
+                <div class="pannel-action">
+                    <a href="#">
+                        <svg width="20px" enable-background="new 0 0 32 32" id="Слой_1" version="1.1"
+                            viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path clip-rule="evenodd"
+                                d="M26.711,20.273l-9.999-9.977  c-0.395-0.394-1.034-0.394-1.429,0v0h0l-9.991,9.97c-0.66,0.634-0.162,1.748,0.734,1.723h19.943  C26.862,22.012,27.346,20.906,26.711,20.273z M15.998,12.433l7.566,7.55H8.432L15.998,12.433z"
+                                fill="#121313" fill-rule="evenodd" id="Arrow_Drop_Up" />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                        </svg>
+                    </a>
+
+                    <a href="#">
+                        <svg width="20px" enable-background="new 0 0 32 32" id="Слой_1" version="1.1"
+                            viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path clip-rule="evenodd"
+                                d="M27,11.106c0-0.564-0.489-1.01-1.044-0.995  H6.013c-0.887-0.024-1.38,1.07-0.742,1.702l9.999,9.9c0.394,0.39,1.031,0.376,1.429,0l9.991-9.892C26.879,11.64,27,11.388,27,11.106  z M15.984,19.591L8.418,12.1H23.55L15.984,19.591z"
+                                fill="#121313" fill-rule="evenodd" id="Arrow_Drop_Down" />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-trash-2">
+                            <polyline points="3 6 5 6 21 6"></polyline>
+                            <path
+                                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                            </path>
+                            <line x1="10" y1="11" x2="10" y2="17"></line>
+                            <line x1="14" y1="11" x2="14" y2="17"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="pannel-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <input type="file" class="form-control" name="" id="">
+                    </div>
+                    <div class="col-md-4">
+                        <select name="" class="form-control rakib" id="">
+                            <option value="">site</option>
+                            <option value="">admin</option>
+                            <option value="">visitor</option>
+                            <option value="">subscriber</option>
+                            <option value="">traffic</option>
+                        </select>
+
+                    </div>
+
+                </div>
+            </div>
+            </div>
+            <br><hr>
+            <div class="pannel">
+              <div class="top-pannel d-flex justify-content-between">
+                  <div class="pannel-title">
+                      <h3>
+                          Google Analytics Tracking Id
+                          <code class="badge rounded-pill bg-primary text-white h6">setting('site.google_analytics_tracking_id')</code>
+                      </h3>
+                  </div>
+                  <div class="pannel-action">
+                      <a href="#">
+                          <svg width="20px" enable-background="new 0 0 32 32" id="Слой_1" version="1.1"
+                              viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <path clip-rule="evenodd"
+                                  d="M26.711,20.273l-9.999-9.977  c-0.395-0.394-1.034-0.394-1.429,0v0h0l-9.991,9.97c-0.66,0.634-0.162,1.748,0.734,1.723h19.943  C26.862,22.012,27.346,20.906,26.711,20.273z M15.998,12.433l7.566,7.55H8.432L15.998,12.433z"
+                                  fill="#121313" fill-rule="evenodd" id="Arrow_Drop_Up" />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                          </svg>
+                      </a>
+
+                      <a href="#">
+                          <svg width="20px" enable-background="new 0 0 32 32" id="Слой_1" version="1.1"
+                              viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <path clip-rule="evenodd"
+                                  d="M27,11.106c0-0.564-0.489-1.01-1.044-0.995  H6.013c-0.887-0.024-1.38,1.07-0.742,1.702l9.999,9.9c0.394,0.39,1.031,0.376,1.429,0l9.991-9.892C26.879,11.64,27,11.388,27,11.106  z M15.984,19.591L8.418,12.1H23.55L15.984,19.591z"
+                                  fill="#121313" fill-rule="evenodd" id="Arrow_Drop_Down" />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                          </svg>
+                      </a>
+                      <a href="#">
+                          <svg width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                              class="feather feather-trash-2">
+                              <polyline points="3 6 5 6 21 6"></polyline>
+                              <path
+                                  d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                              </path>
+                              <line x1="10" y1="11" x2="10" y2="17"></line>
+                              <line x1="14" y1="11" x2="14" y2="17"></line>
+                          </svg>
+                      </a>
+                  </div>
+              </div>
+              <div class="pannel-body">
+                  <div class="row">
+                      <div class="col-md-8">
+                          <input type="text" class="form-control" name="" id="">
+                      </div>
+                      <div class="col-md-4">
+                          <select name="" class="form-control rakib" id="">
+                              <option value="">site</option>
+                              <option value="">admin</option>
+                              <option value="">visitor</option>
+                              <option value="">subscriber</option>
+                              <option value="">traffic</option>
+                          </select>
+
+                      </div>
+
+                  </div>
+              </div>
+            </div>
+            <br><hr>
+            <div class="pannel">
+              <div class="top-pannel d-flex justify-content-between">
+                  <div class="pannel-title">
+                      <h3>
+                          test
+                          <code class="badge rounded-pill bg-primary text-white h6">setting('site.test')</code>
+                      </h3>
+                  </div>
+                  <div class="pannel-action">
+                      <a href="#">
+                          <svg width="20px" enable-background="new 0 0 32 32" id="Слой_1" version="1.1"
+                              viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <path clip-rule="evenodd"
+                                  d="M26.711,20.273l-9.999-9.977  c-0.395-0.394-1.034-0.394-1.429,0v0h0l-9.991,9.97c-0.66,0.634-0.162,1.748,0.734,1.723h19.943  C26.862,22.012,27.346,20.906,26.711,20.273z M15.998,12.433l7.566,7.55H8.432L15.998,12.433z"
+                                  fill="#121313" fill-rule="evenodd" id="Arrow_Drop_Up" />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                          </svg>
+                      </a>
+
+                      <a href="#">
+                          <svg width="20px" enable-background="new 0 0 32 32" id="Слой_1" version="1.1"
+                              viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <path clip-rule="evenodd"
+                                  d="M27,11.106c0-0.564-0.489-1.01-1.044-0.995  H6.013c-0.887-0.024-1.38,1.07-0.742,1.702l9.999,9.9c0.394,0.39,1.031,0.376,1.429,0l9.991-9.892C26.879,11.64,27,11.388,27,11.106  z M15.984,19.591L8.418,12.1H23.55L15.984,19.591z"
+                                  fill="#121313" fill-rule="evenodd" id="Arrow_Drop_Down" />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                              <g />
+                          </svg>
+                      </a>
+                      <a href="#">
+                          <svg width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                              class="feather feather-trash-2">
+                              <polyline points="3 6 5 6 21 6"></polyline>
+                              <path
+                                  d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                              </path>
+                              <line x1="10" y1="11" x2="10" y2="17"></line>
+                              <line x1="14" y1="11" x2="14" y2="17"></line>
+                          </svg>
+                      </a>
+                  </div>
+              </div>
+              <div class="pannel-body">
+                  <div class="row">
+                      <div class="col-md-8">
+                          <input type="button" class="btn btn-outline-secondary" name="" value="1" id="">
+                      </div>
+                      <div class="col-md-4">
+                          <select name="" class="form-control rakib" id="">
+                              <option value="">site</option>
+                              <option value="">admin</option>
+                              <option value="">visitor</option>
+                              <option value="">subscriber</option>
+                              <option value="">traffic</option>
+                          </select>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </form>
+    </div>
+
+
+
+    <div id="button">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary" type="button">Save Setting</button>
+        </div>
+    </div><br>
+
+    <div class="p-3 mb-2 bg-light bg-white">
+        <div class="row">
+            <div class="col-md-3">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label><br>
+                        <input type="text" class="form-control" id="" placeholder="Setting name ex: Admin Title">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Key</label><br>
+                        <input type="text" class="form-control" id="" placeholder="Setting key ex: admin_title">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3">
+                <label for="type">Type</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Choose Type</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+            </div>
+            <div class="col-md-3">
+                <label for="type">Group</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select Existing Group Or Add New</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+            </div>
+        </div>
+        <br>
+        <div id="button">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-primary" type="button">Save Setting</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- select2 -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+
+    <script>
+        $('.rakib').select2();
+    </script>
+</body>
+
+</html>
